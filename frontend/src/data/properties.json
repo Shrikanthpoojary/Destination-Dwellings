@@ -1,0 +1,49 @@
+[
+    {
+      "Id":1,
+      "SellRent": 1, 
+      "name":"Matra House",
+      "type" : "2BHK",
+      "price" : 25000,
+      "Image": "prop-1"
+    },
+    {
+      "Id":2,
+      "SellRent": 1,
+      "name":"Krishna House",
+      "type" : "1BHK",
+      "price" : 27000,
+      "Image": "prop-2"
+    },
+    {
+      "Id":3,
+      "SellRent": 2,
+      "name":"kalki House",
+      "type" : "3BHK",
+      "price" : 24000,
+      "Image": "prop-3"
+    },
+    {
+      "Id":4,
+      "SellRent": 1,
+      "name":"karma House",
+      "type" : "2BHK",
+      "price" : 23000,
+      "Image": "prop-4"
+    },
+    {
+      "Id":5,
+      "SellRent": 2,
+      "name":"Dev House",
+      "type" : "2BHK",
+      "price" : 21000,
+      "Image": "prop-5"
+    },
+    {
+      "Id":6,
+      "SellRent": 1,
+      "name":"Radha House",
+      "type" : "2BHK",
+      "price" : 21000
+    }
+]

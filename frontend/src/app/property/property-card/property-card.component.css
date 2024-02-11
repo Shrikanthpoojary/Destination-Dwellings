@@ -1,6 +1,44 @@
-h1{
+/* h1{
     color: grey;
 }
 .propcardImg{
     height: 250px;
+} */
+.card-img-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover img {
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    height: 250px;
+    opacity: .8;
+}
+
+.card img {
+    transform: scale(1, 1);
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    height: 250px;
+}
+
+.card-icon{
+    position: absolute;
+    bottom: -10%;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+}
+
+.card-img-wrapper:hover .card-icon {
+    bottom: 0;
+    opacity: 1;
+}
+
+.animate {
+    transition: all 0.5s ease-in-out;
 }
